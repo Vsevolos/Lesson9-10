@@ -85,7 +85,7 @@ body{
 .line{
     width: 50px; 
     border-top: 3px solid black;
-    margin-left: 750px;
+    margin-left: 925px;
     margin-top: 20px;
     margin-bottom: 19px;
 }
@@ -105,19 +105,20 @@ body{
     width: 60px;
     height: 60px;
     display: flex;
-    font-size: 40px;
+    font-size: 30px;
     padding: 0;
     color: red;
     align-items: center;
     margin: 0 auto;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 i:hover{
     color: white;
     background: red;
 }
 .fa-code{
-    padding-right: 30px;
+    padding-left:0px;
+    padding-top: 10px;
 }
 .last-text{
     color: white;
@@ -132,10 +133,11 @@ i:hover{
 color: white;
 border: white 2px solid;
 border-radius: 50%;
-width: 25px;
-height: 20px;
+width: 50px;
+height: 50px;
 text-align: center;
-padding-top: 5px;
+font-size: 25px;
+padding-top: 10px;
 }
 .fa-twitter::before{
     text-align: center;
@@ -207,6 +209,15 @@ display: none;
         padding:0 25%;
     }
     .fa-twitter{
-        padding-top: 0;
+        padding-top: 10px;
+    }
+    .main-text{
+        margin-left: 5px;
+    }
+    .main-article{
+        margin-left: 150px;
+    }
+    .line{
+        margin-left: 165px;
     }
 }
