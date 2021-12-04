@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', 'sans-serif';
+    color: black;
+}
+.ul{
+    list-style-type: none;
+    width: 600px;
+    display: flex;
+    font-size: 19px;
+    justify-content: space-around;
+    color: white;
+    padding-top: 30px;
+}
+.ul a{
+    text-decoration: none;
+    color: white;
+
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0px auto;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url(back.jpg);
+    background-size: cover;
+}
+.header-logo a{
+    font-size: 30px;
+    color: white; 
+    text-decoration: none;
+    
+}
+.header-logo{
+    padding-top: 20px;
+}
+.header-top{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-inner{
+    width: 100%;
+}
+.article{
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    color: white;
+    border: white solid 3px;
+    background: none;
+    font-size: 21px;
+}
+.h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.text{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.main-article{
+    font-size: 21px;
+    display: inline-block;
+    margin-left: 48%;
+}
+.main-text{
+    text-align: center;
+    font-family: 'Montserrat';
+}
+.line{
+    width: 50px; 
+    border-top: 3px solid black;
+    margin-left: 750px;
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
+.icons{
+    display: flex;
+}
+.icon-block{
+    text-align: center;
+    padding: 0 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon{
+    border: 4px black solid;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    font-size: 40px;
+    padding: 0;
+    color: red;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+i:hover{
+    color: white;
+    background: red;
+}
+.fa-code{
+    padding-right: 30px;
+}
+.last-text{
+    color: white;
+}
+.footer{
+    background: red;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+.fa-twitter{
+color: white;
+border: white 2px solid;
+border-radius: 50%;
+width: 25px;
+height: 20px;
+text-align: center;
+padding-top: 5px;
+}
+.fa-twitter::before{
+    text-align: center;
+}
+.Twitter{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 43%;
+    margin: 50px 0;
+    
+}
+.carousel{
+display: none;
+}
+.last-text{
+    text-align: center;
+}
+.three-lines{
+    display: none;
+}
+@media (max-width:767px) {
+    .ul{
+        display: none;
+    }
+    .header-logo{
+        margin-left: 75px;
+    }
+    .line{
+        margin-left: 195px;
+    }
+    .main-text{
+        margin-left: 50px;
+    }
+    .carousel{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .icon{
+        border: 4px black solid;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        font-size: 40px;
+        padding: 0;
+        color: red;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 5px;
+    }
+    i:hover{
+        color: white;
+        background: red;
+    }
+    .fa-code{
+     width: 60px;   
+     font-size: 38px;
+    }
+    .carousel-control-next-icon{
+        background-color: black;
+    }
+    .carousel-control-prev-icon{
+        background-color: black;
+    }
+    .Twitter{
+        padding:0 25%;
+    }
+    .fa-twitter{
+        padding-top: 0;
+    }
+}
